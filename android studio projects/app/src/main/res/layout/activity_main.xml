@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_dark"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="74dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="casual"
+        android:text="Grade calculater"
+        android:textColor="#9C27B0"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/first"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginBottom="40dp"
+        android:background="#7212289C"
+        android:backgroundTint="#2196F3"
+        android:ems="10"
+        android:hint="quizes 15 %"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/second"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginBottom="40dp"
+        android:background="#7212289C"
+        android:backgroundTint="#2196F3"
+        android:ems="10"
+        android:hint="homework 25%"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/third"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="105dp"
+
+        android:layout_marginBottom="40dp"
+
+        android:background="#7212289C"
+        android:backgroundTint="#2196F3"
+        android:ems="10"
+        android:hint="mid term 30%"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/fourth"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginBottom="40dp"
+        android:background="#7212289C"
+        android:backgroundTint="#2196F3"
+        android:ems="10"
+        android:hint="hint 30%"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginBottom="40dp"
+        android:background="#9C27B0"
+        android:text="calculate"
+        android:textSize="25sp" />
+
+</LinearLayout>
